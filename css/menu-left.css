@@ -15,7 +15,7 @@
 
 #col3_content {
     /* add border */
-    border-left: none
+    border-left: none;
     border-right: 1px solid #ddd;
 }
 
