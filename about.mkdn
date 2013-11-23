@@ -41,7 +41,7 @@ external links.
 
 <small class="meta final">
 The site content is managed in a
-<a href="http://github.com/olesenm/olesenm.github.com">git repository</a>
+<a href="http://github.com/olesenm/olesenm.github.io">git repository</a>
 and published with <a href="http://jekyllrb.com">jekyll</a>.
 <br/>The site layout can be reused with (cc)
 <a href="http://creativecommons.org/licenses/by-sa/3.0/">some rights reserved</a>.

@@ -33,8 +33,8 @@ reveals two obviously useful command-line options:
 The resulting
 [GridEngine-git-config](http://github.com/olesenm/flex-grid/blob/master/scripts/GridEngine-git-config)
 script is now part of the
-[programs](http://olesenm.github.com/flex-grid/programs.html) in
-[flex-grid](http://olesenm.github.com/flex-grid/).
+[programs](http://olesenm.github.io/flex-grid/programs.html) in
+[flex-grid](http://olesenm.github.io/flex-grid/).
 
 In the current long form it adds various error checking and intelligence to
 avoid creating unnecessary snapshots, but stripped of all that it essentially

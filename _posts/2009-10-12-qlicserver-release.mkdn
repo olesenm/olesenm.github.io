@@ -15,7 +15,7 @@ gridengine-related scripts.
 
 For redundancy and simplicity, I've also converted the various releases into
 a git repository, which is currently hosted at github. <br/>
-Project Page: [http://olesenm.github.com/flex-grid/](http://olesenm.github.com/flex-grid/)
+Project Page: [http://olesenm.github.io/flex-grid/](http://olesenm.github.io/flex-grid/)
 <br/>
 Project Repo: [http://github.com/olesenm/flex-grid](http://github.com/olesenm/flex-grid)
 
@@ -28,7 +28,7 @@ example,
         wget http://github.com/olesenm/flex-grid/raw/master/site/qlicserver
 
 The changes to the code itself are listed on the project page:
-[http://olesenm.github.com/flex-grid/changes.html](http://olesenm.github.com/flex-grid/changes.html)
+[http://olesenm.github.io/flex-grid/changes.html](http://olesenm.github.io/flex-grid/changes.html)
 
 The latest release (flex-grid-20091012.tar.gz) is also available on the
 

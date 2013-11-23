@@ -16,7 +16,7 @@ a:hover {
     text-decoration: none;
 }
 
-h1, h2, h3, h4 {
+h1, h2, h3, h4, h5, h6 {
     margin-bottom: 10px;
 }
 
@@ -30,11 +30,11 @@ pre, code
     margin-bottom: 1em;
 }
 
-h1, h2, h3 {
+h1, h2, h3, h4, h5, h6 {
     color: #000;
 }
 
-h1 a, h2 a, h3 a,
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a,
 a.read-more {
     color: #993300;
 }
@@ -94,7 +94,10 @@ img {
 
 #header h1,
 #header h2,
-#header h3
+#header h3,
+#header h4,
+#header h5,
+#header h6
 {
     margin: 0px;
 }
@@ -110,6 +113,9 @@ img {
 #header h1 a,
 #header h2 a,
 #header h3 a
+#header h4 a,
+#header h5 a,
+#header h6 a
 {
     color: #888;
     text-decoration: none;
