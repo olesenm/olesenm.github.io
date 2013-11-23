@@ -1,0 +1,23 @@
+/* use default CSS */
+@import url(default.css);
+
+/* but menu elements (col3) on the left */
+
+/* col1: main column (right) */
+#col1 {
+    float: right;
+}
+
+/* col3: side bar (left) */
+#col3 {
+    float:  left;
+}
+
+#col3_content {
+    /* add border */
+    border-left: none
+    border-right: 1px solid #ddd;
+}
+
+
+/* end-of-file */
