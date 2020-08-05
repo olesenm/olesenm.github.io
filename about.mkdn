@@ -5,39 +5,69 @@ title:  About
 
 ### This site ###{: class="vlist"}
 
-Born out of necessity (to get github project pages working), I figured
-blogging may even prove a useful means of noting things that would otherwise
-get buried in mailing lists.
+Born out of necessity (to get github project pages working), I started
+a blog in 2009 - primarily note things that would otherwise get buried
+in mailing lists.
+
+Since that time, the blog activity has largely ceased and various
+other things have also changed.
 
 ### About me ###{: class="vlist"}
 
 My background is in [Computational Fluid
 Dynamics](http://en.wikipedia.org/wiki/Computational_fluid_dynamics).
 
-I am well-versed in Perl, which I consider an excellent tool for data
-munging and for a variety of other tasks. Since starting to use OpenFOAM for
-CFD calculations a few years ago, I have also upgraded my C++ skills to
-match. As a further outcome of practicing CFD, which generally requires
-parallel processing to achieve acceptable run-times, I continue to
-reconfigure and maintain a Linux cluster using GridEngine as the resource
+In the past I worked with commercial CFD software (AVL/Fire 7,
+STAR-CD, STARCCM+) as a user and in method development.
+The idea of "method development" is to make software do what _you_
+want and, most importantly, to create optimized workflows for
+production purposes for yourself and others to use. The best way to
+encourage best practices is to make it easy. I call it
+_"standardization by laziness"_.
+For some of this, STARCCM+ was extended with a custom NetBeans module
+with a guided workflow, but one that was also based on a variety of
+plain config files for setting meshing and flow properties. I was
+fairly neutral about Java, but the absolutely astounding amount of
+code that one has to generate pushed me away from it. For other tasks,
+Perl played a central role (I consider an excellent tool for data
+munging and for a variety of other things, but those particular skills
+have largely atrophied in the meantime).
+
+As a further outcome of practicing CFD, which generally requires
+parallel processing to achieve acceptable run-times, I configured and
+maintained a smallish Linux cluster using GridEngine as the resource
 management (queuing) system.
 
-As a side-note, I maintained and enhanced an orphaned
-[rxvt](http://en.wikipedia.org/wiki/Rxvt) many years ago when my
-underpowered workstation found XTerm to be a memory hog.
+In 2006 I started using OpenFOAM (a patched version 1.3) to explore
+extending and/or replacing commercial CFD software with an open-source
+solution. This provoked an upgrade in my C++ skills to match.
+Since 2016 I have been able to shift my focus entirely to OpenFOAM
+(with a corresponding change in jobs).
 
+#### Historical side-notes
+
+- I maintained and enhanced an orphaned
+  [rxvt](http://en.wikipedia.org/wiki/Rxvt) many years ago when my
+  underpowered workstation found XTerm to be a memory hog.
+- Ever since moving from [VM/CMS xedit](https://en.wikipedia.org/wiki/XEDIT),
+  I have been using the [jed editor](https://en.wikipedia.org/wiki/JED_(text_editor))
+  with emacs keybindings.
+  The main selling point was its cross-platform availability and that it
+  the executable and libraries fit onto a 1.44 MB floppy (doesn't sound
+  very relevant any more).
+- My first Linux system was a slackware distribution.
+  Currently use openSUSE for most systems, with a few Ubuntu laptops
+  kicking about as well.
 
 ### Disclaimers ###{: class="vlist"}
 
-The contents of the blog represent my *personal* opinion and are not
+The contents of the blog represent my ***personal*** opinion and are not
 authorized by any of the companies or institutions mentioned, nor is any
 affiliation implied. No responsibility is taken for the contents of
 external links.
 
-- [Grid Engine&reg;](http://gridengine.sunsource.net/) is a registered
-  trademark of [SUN microsystems](http://www.sun.com/)
-- [OpenFOAM&reg;](http://www.openfoam.com/) is a registered trademark
-  of [OpenCFD Ltd.](http://www.openfoam.com/about/)
+- [OpenFOAM&reg;](https://www.openfoam.com/) is a registered trademark
+  of [OpenCFD Ltd.](https://www.openfoam.com/about/)
 
 <small class="meta final">
 The site content is managed in a
@@ -47,4 +77,3 @@ and published with <a href="http://jekyllrb.com">jekyll</a>.
 <a href="http://creativecommons.org/licenses/by-sa/3.0/">some rights reserved</a>.
 Some layout elements are borrowed from <a href="http://www.yaml.de/en/">YAML</a>.
 </small>
-
