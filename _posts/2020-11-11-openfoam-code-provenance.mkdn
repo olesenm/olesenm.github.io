@@ -1,0 +1,111 @@
+---
+layout: post
+title: The not-quite-so-open part of opensource...
+tags: [copyright, GPL, openfoam]
+---
+
+I started using [OpenFOAM](https://www.openfoam.com) around 2006 and felt
+liberated by its openness. Unlike commercial CFD codes where you moan
+about things and then wait for a new version to see if it gets better,
+here you can actually do something about it. In my case, this liberty
+also felt like an obligation to give back. So not long after starting
+with OpenFOAM, I was posting code on
+[cfd-online.com](https://www.cfd-online.com/Forums/openfoam/) and sending tar files
+to Henry Weller (OpenCFD at that time) for incorporation in the
+OpenFOAM code base. This was naturally all a bit chaotic - no version
+control and manual code merges - but by 2008 things had finally moved
+to git, which made it not only much easier to contribute but also
+easier to track where the contributions actually came from.
+
+Well, I suppose from the title of the posting, you have already
+guessed that none of the technological advances actually resulted in
+any transparency in the code contributions (also known as
+_"Code Provenance"_).
+
+The unwritten policy was that any contributions should not have the
+author's copyright mention, with the justification being that a single
+copyright makes it far easier to enforce GPL violations. However, the
+danger that a single copyright holder presents for any opensource
+software remains significant. A single copyright holder can
+unilaterally change to a proprietary license (although the last
+opensource version would remain open) or they can opt for a
+[dual licensing model](https://en.wikipedia.org/wiki/Multi-licensing#Single-Vendor_Commercial_Open_Source_Business_Model)
+with special closed-source proprietary features being offered to their
+direct customers. These points are made in the
+[presentation on opensource licenses](http://ebb.org/bkuhn/talks/OpenFOAM-2011/openfoam.html)
+by Bradley Kuhn
+([Software Freedom Conservancy](https://sfconservancy.org/))
+given at the OpenFOAM workshop in 2011.
+
+I placed good faith in assurances that the record of my contributions
+would not be _"lost"_, since they are of course preserved in the git
+history. I understood this to mean that my code authorship would be
+correctly recognized and documented in due course. I have waited a
+long time for this to happen of its own accord and now decided that
+the time had come for my contributions to be properly attributed.
+
+In the period from 2008 to 2011 (which predates my move to 
+[ESI](https://www.esi-group.com/) in 2016
+to work on OpenFOAM full time), I made <u>1300+ commits</u> spanning
+<u>600+ files</u>. The number of actual files modified is, of course, much higher,
+but we naturally ignore style and compilation-related changes, simple
+bug fixes and any scripted changes (for example, the 
+[change from GPL-2 to GPL-3+ licensing](https://github.com/olesenm/OpenFOAM-history/commit/084e54da0c488c1fdcb33ff6325efdc28711da1c))
+etc.
+
+I approached the [OpenFOAM Foundation Ltd.](https://openfoam.org/company-history/)
+(who claim [sole copyright ownership](https://openfoam.org/ip-history/)
+and where Henry Weller is now company director) by opening a
+report on their [issue tracker](https://bugs.openfoam.org/view.php?id=3575)
+(text follows at the bottom of the post).
+Their response was to delete both the issue and my bug reporting
+account without comment.
+
+I subsequently submitted the changes as a github
+[pull-request](https://github.com/OpenFOAM/OpenFOAM-dev/pull/32),
+which was also immediately closed by them without comment.
+
+I would be interested to hear other people's experiences with
+contributing to opensource projects, especially with regards to German
+copyright law. Note that there is also an [ongoing discussion](https://www.cfd-online.com/Forums/openfoam/152605-original-openfoam-author-s.html)
+on cfd-online regarding the _"Original OpenFOAM author(s)"_
+
+Please re-share (also via other media).
+
+_[The following is the text of the issue filed and now deleted]_
+
+### Accurate Code Provenance
+
+During the period 2008 to 2011, I authored and contributed code to the
+OpenFOAM code base (as acknowledged in the release notes for versions
+1.6 to 2.0), but which has never been reflected in the source code
+contents, and effectively suppressed in the git repository published
+by the Foundation.
+
+It is to be noted that since contributions were authored within
+Germany the copyright is non-transferrable (as correctly noted in 2.2
+of the contributor agreement).
+
+Since I have never signed a Contributor Agreement (or equivalent) to
+waive my rights, I request that my rights as stipulated by section 13
+of the Urheberrechtsgesetz (German Act on Copyright and Related
+Rights) be respected.
+
+> The author has the right to be identified as the author of the work.
+  He may determine whether the work shall bear a designation of
+  authorship and which designation is to be used.
+
+The authorship designation shall have the form
+
+Copyright (C) date-range Mark Olesen
+
+to be located in header of the files in question. The designation
+shall appear in chronologically sorted order where other authorship
+(copyright) designations appear in the file headers to avoid an
+implicit devaluation or denigration of the contribution.
+
+
+### Additional notes
+
+The text here largely corresponds to that of my similarly title
+linkedIn article.
