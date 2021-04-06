@@ -3,7 +3,7 @@ layout: default
 title:  Other
 ---
 
-### Miscellaneous ###{: class="vlist"}
+<h3 class="vlist">Miscellaneous</h3>
 
 - [DANSIS](http://www.dansis.dk) presentation about the *Integration,
   interoperability and symbiosis* of [OpenFOAM and

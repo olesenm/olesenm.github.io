@@ -3,7 +3,7 @@ layout: default
 title:  About
 ---
 
-### This site ###{: class="vlist"}
+<h3 class="vlist">This site</h3>
 
 Born out of necessity (to get github project pages working), I started
 a blog in 2009 - primarily note things that would otherwise get buried
@@ -12,7 +12,7 @@ in mailing lists.
 Since that time, the blog activity has largely ceased and various
 other things have also changed.
 
-### About me ###{: class="vlist"}
+<h3 class="vlist">About me</h3>
 
 My background is in [Computational Fluid
 Dynamics](http://en.wikipedia.org/wiki/Computational_fluid_dynamics).
@@ -44,7 +44,7 @@ solution. This provoked an upgrade in my C++ skills to match.
 Since 2016 I have been able to shift my focus entirely to OpenFOAM
 (with a corresponding change in jobs).
 
-#### Historical side-notes
+<h4>Historical side-notes</h4>
 
 - I maintained and enhanced an orphaned
   [rxvt](http://en.wikipedia.org/wiki/Rxvt) many years ago when my
@@ -59,7 +59,7 @@ Since 2016 I have been able to shift my focus entirely to OpenFOAM
   Currently use openSUSE for most systems, with a few Ubuntu laptops
   kicking about as well.
 
-### Disclaimers ###{: class="vlist"}
+<h3 class="vlist">Disclaimers</h3>
 
 The contents of the blog represent my ***personal*** opinion and are not
 authorized by any of the companies or institutions mentioned, nor is any

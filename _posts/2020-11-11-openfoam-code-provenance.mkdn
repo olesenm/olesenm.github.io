@@ -1,7 +1,7 @@
 ---
 layout: post
 title: The not-quite-so-open part of opensource...
-tags: [copyright, GPL, openfoam]
+tags: [copyright, GPL, OpenFOAM]
 ---
 
 I started using [OpenFOAM](https://www.openfoam.com) around 2006 and felt
@@ -44,12 +44,12 @@ correctly recognized and documented in due course. I have waited a
 long time for this to happen of its own accord and now decided that
 the time had come for my contributions to be properly attributed.
 
-In the period from 2008 to 2011 (which predates my move to 
+In the period from 2008 to 2011 (which predates my move to
 [ESI](https://www.esi-group.com/) in 2016
 to work on OpenFOAM full time), I made <u>1300+ commits</u> spanning
 <u>600+ files</u>. The number of actual files modified is, of course, much higher,
 but we naturally ignore style and compilation-related changes, simple
-bug fixes and any scripted changes (for example, the 
+bug fixes and any scripted changes (for example, the
 [change from GPL-2 to GPL-3+ licensing](https://github.com/olesenm/OpenFOAM-history/commit/084e54da0c488c1fdcb33ff6325efdc28711da1c))
 etc.
 
@@ -73,6 +73,8 @@ on cfd-online regarding the _"Original OpenFOAM author(s)"_
 Please re-share (also via other media).
 
 _[The following is the text of the issue filed and now deleted]_
+
+------
 
 ### Accurate Code Provenance
 
@@ -104,8 +106,9 @@ shall appear in chronologically sorted order where other authorship
 (copyright) designations appear in the file headers to avoid an
 implicit devaluation or denigration of the contribution.
 
+------
 
 ### Additional notes
 
-The text here largely corresponds to that of my similarly title
-linkedIn article.
+The text here largely corresponds to that of my similarly titled
+[linkedIn article](https://www.linkedin.com/pulse/quite-so-open-part-opensource-mark-olesen/)
